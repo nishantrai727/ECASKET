@@ -1,0 +1,133 @@
+name: ECASKET
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^2.1.0
+  provider: ^4.0.0
+  intl: ^0.15.0
+  http: ^0.12.1
+  shared_preferences: ^0.5.12
+  json_annotation: ^3.1.1
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/home_screen/homescreenSlider/1.jpg
+    - assets/images/home_screen/homescreenSlider/2.jpg
+    - assets/images/home_screen/homescreenSlider/3.jpg
+    - assets/images/home_screen/homescreenSlider/4.jpg
+    - assets/images/home_screen/homescreenSlider/5.jpg
+    - assets/images/home_screen/homescreenSlider/6.jpg
+    - assets/images/home_screen/homescreenSections/1.png
+    - assets/images/home_screen/homescreenSections/2.png
+    - assets/images/home_screen/homescreenSections/3.png
+    - assets/images/home_screen/homescreenSections/4.png
+    - assets/images/home_screen/homescreenSections/5.png
+    - assets/images/home_screen/homescreenSections/6.png
+    - assets/images/home_screen/homescreenSections/7.png
+    - assets/images/home_screen/homescreenSections/8.png
+    - assets/images/home_screen/homescreenSections/9.png
+    - assets/images/home_screen/homescreenSections/10.png
+    - assets/images/home_screen/homescreenflexadd/1.jpg
+    - assets/images/home_screen/homescreenoffers/1.jpg
+    - assets/images/home_screen/homescreenoffers/2.jpg
+    - assets/images/home_screen/homescreenoffers/3.jpg
+    - assets/images/home_screen/homescreenoffers/4.jpg
+    - assets/images/home_screen/homescreenoffers/crosswave.png
+    - assets/images/home_screen/homescreenSectionContent/1.png
+    - assets/images/home_screen/homescreenSectionContent/2.png
+    - assets/images/home_screen/homescreenSectionContent/3.png
+    - assets/images/allCategoryScreen/1.jpg
+    - assets/images/categories/faishon/1.jpg
+    - assets/images/categories/faishon/2.jpg
+    - assets/images/categories/faishon/3.jpg
+    - assets/images/categories/faishon/4.jpg
+    - assets/images/categories/faishon/5.jpg
+    - assets/images/categories/faishon/6.jpg
+    - assets/images/categories/faishon/7.jpg
+    - assets/images/categories/appliances/1.jpg
+    - assets/images/categories/beauty/1.jpg
+    - assets/images/categories/electronics/1.jpg
+    - assets/images/categories/furniture/1.jpg
+    - assets/images/categories/grocery/1.jpg
+    - assets/images/categories/home/1.jpg
+    - assets/images/categories/mobiles/1.jpg
+    - assets/images/categories/mobiles/2.jpg
+    - assets/images/categories/mobiles/3.jpg
+    - assets/images/categories/mobiles/4.jpg
+    - assets/images/categories/mobiles/5.jpg
+    - assets/images/categories/mobiles/6.jpg
+    - assets/images/categories/sport/1.jpg
+    - assets/images/categories/toy/1.jpg
+    - assets/images/account_screen/hero.png
+    - assets/images/account_screen/heroine.png
+    - assets/images/auth_screen/shopper.png
+
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 700
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
