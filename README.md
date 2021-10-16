@@ -7,7 +7,7 @@ Ecasket is an ecommerce app developed with the **FLUTTER** which claims to be fu
 
 ***
 
-#SCREENSHOTS
+# SCREENSHOTS
 
 ![screenshots](https://github.com/nishantrai727/ECASKET/blob/main/screenshots/first.jpg)
 ![screenshots](https://github.com/nishantrai727/ECASKET/blob/main/screenshots/second.jpg)
