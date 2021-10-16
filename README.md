@@ -5,3 +5,11 @@ Ecasket is an ecommerce app developed with the **FLUTTER** which claims to be fu
 - The UI of the whole app is hand coded with full intentions to have smooth touch.
 - **FIREBASE** has been used as BACKEND api , used for **AUTHENTICATION** and **REALTIME DATABASE**.
 
+***
+
+#SCREENSHOTS
+
+![screenshots](https://github.com/nishantrai727/ECASKET/blob/main/screenshots/first.jpg)
+![screenshots](https://github.com/nishantrai727/ECASKET/blob/main/screenshots/second.jpg)
+![screenshots](https://github.com/nishantrai727/ECASKET/blob/main/screenshots/third.jpg)
+
